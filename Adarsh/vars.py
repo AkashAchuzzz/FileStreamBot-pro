@@ -17,10 +17,10 @@ class Var(object):
     WORKERS = int(getenv('WORKERS', '4'))
     BIN_CHANNEL = int(getenv('BIN_CHANNEL', -1002124550695))
     PORT = int(getenv('PORT', 8080))
-    BIND_ADRESS = str(getenv('WEB_SERVER_BIND_ADDRESS', 'https://cdn-oggy.run-us-west2.goorm.site'))
+    BIND_ADRESS = str(getenv('WEB_SERVER_BIND_ADDRESS', '54.202.92.208:50297'))
     PING_INTERVAL = int(environ.get("PING_INTERVAL", "1200"))  # 20 minutes
     OWNER_ID = set(int(x) for x in os.environ.get("OWNER_ID", "969730932").split()) 
-    NO_PORT = bool(getenv('NO_PORT', 443))
+    NO_PORT = bool(getenv('NO_PORT', False))
     APP_NAME = None
     OWNER_USERNAME = str(getenv('OWNER_USERNAME', "AkashAchuzzz"))
     if 'DYNO' in environ:
