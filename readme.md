@@ -77,8 +77,8 @@ Thank you for your interest in this project, and we appreciate your understandin
   You should make sure you have Python 3.6+ installed on your PC, then clone this repo and run the following commands in a terminal:
 
 ```py
-git clone https://github.com/AkashAchuzzz/FileStreamBot-pro
-cd filestreambot-pro
+git clone https://github.com/AkashAchuzzz/FileStreamBotPro
+cd FileStreamBotPro
 virtualenv -p /usr/bin/python3 venv
 . ./venv/bin/activate
 pip install -r requirements.txt
